@@ -1,0 +1,73 @@
+/* fancy quote */
+.stockasauras_fancy_quote_container {
+    display: inline-block;
+    position: relative;
+}
+
+.stockasauras_fancy_quote {
+    font-size: 0.83em;
+    line-height: 14px;
+    position: relative;
+    display: inline-block;
+    padding: 1px 4px 1px 3px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+.stockasauras_symbol {
+    display: inline-block;
+}
+
+.stockasauras_fancy_quote.up {
+    background-color: #c2f9c4;
+    border: 1px solid #7acd76;
+    color: #007c07;
+}
+.stockasauras_fancy_quote.up a {
+    color: #007c07;
+}
+
+.stockasauras_fancy_quote.down {
+    background-color: #ffbebe;
+    border: 1px solid #ee827d;
+    color: #af1a1f;
+}
+.stockasauras_fancy_quote.down a {
+    color: #af1a1f;
+}
+
+.stockasauras_fancy_quote.sideways {
+    background-color: #c2f9c4;
+    border: 1px solid #7acd76;
+    color: #007c07;
+}
+
+/* widget css */
+.stockasauras_watchlist tr.even{
+    padding: 0;
+    background: #f5f5f5;
+    border-bottom: 1px solid #cfcfcf;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.stockasauras_watchlist tr.odd{
+    padding: 0;
+    background: #b5b5b5;
+    border-bottom: 1px solid #cfcfcf;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.stockasauras_watchlist td {
+    padding: .1em;
+    margin: auto;
+    text-align: left;
+    text-align: center;
+    border-right: 1px dotted #e6e6e6;
+    vertical-align: top;
+}
+.stockasauras_watchlist .down {
+    color: #af1a1f;
+}
+.stockasauras_watchlist .up {
+    color: #007c07;
+}
